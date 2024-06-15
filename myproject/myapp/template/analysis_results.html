@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Analysis Results</title>
+</head>
+<body>
+    <h1>Data Analysis Results</h1>
+    
+    <h2>First Few Rows:</h2>
+    <div>{{ first_rows|safe }}</div>
+    
+    <h2>Summary Statistics:</h2>
+    <div>{{ summary_stats|safe }}</div>
+    
+    <h2>Mean:</h2>
+    <div>{{ mean|safe }}</div>
+    
+    <h2>Median:</h2>
+    <div>{{ median|safe }}</div>
+    
+    <h2>Standard Deviation:</h2>
+    <div>{{ std_dev|safe }}</div>
+    
+    <h2>Missing Values:</h2>
+    <div>{{ missing_values|safe }}</div>
+    
+    <h2>Histogram:</h2>
+    <img src="/{{ plot_path }}" alt="Histogram">
+</body>
+</html>
