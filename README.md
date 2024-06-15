@@ -62,5 +62,5 @@ You'll be redirected to Analysis_result.
 ## Providing Python File 
          This file is created using only Python and Python libraries, not using Django. 
          Due to the difficulty of opening the main project file, you can use this file instead. 
-         It is simple to use: open any compiler and run it.
+         It is simple to use: open any python compiler and run it.
 
