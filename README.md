@@ -58,6 +58,7 @@ You'll be redirected to Analysis_result.
 ### 4) Run the development server
             python manage.py runserver
 ### Providing CSV file For testing
+        SampleWeatherData.csv
 ## Providing Python File 
          This file is created using only Python and Python libraries, not using Django. 
          Due to the difficulty of opening the main project file, you can use this file instead. 
